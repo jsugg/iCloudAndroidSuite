@@ -1,7 +1,7 @@
 import { AppError } from "../errorHandler";
 import logger from "../util/logger";
 
-interface ConflictData {
+export interface ConflictData {
   [key: string]: unknown;
   modificationDate?: string;
 }

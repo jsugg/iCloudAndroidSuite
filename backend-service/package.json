@@ -15,6 +15,7 @@
   "author": "Juan Sugg",
   "license": "MIT",
   "dependencies": {
+    "abort-controller": "^3.0.0",
     "amqplib": "^0.10.4",
     "apple-auth": "^0.0.1",
     "compression": "^1.7.4",
@@ -28,10 +29,12 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^4.1.0",
     "morgan": "^1.10.0",
+    "node-abort-controller": "^3.1.1",
     "node-fetch": "^3.3.2",
     "qs": "^6.12.2",
     "redis": "^3.1.2",
     "supertest": "^7.0.0",
+    "webdav": "^5.6.0",
     "winston": "^3.13.0"
   },
   "devDependencies": {
@@ -55,7 +58,7 @@
     "@types/jest": "^29.5.12",
     "@types/jsonwebtoken": "^8.5.5",
     "@types/morgan": "^1.9.9",
-    "@types/node": "^14.14.41",
+    "@types/node": "^14.18.63",
     "@types/node-fetch": "^2.6.11",
     "@types/prop-types": "^15.7.12",
     "@types/qs": "^6.9.15",
@@ -70,6 +73,7 @@
     "@types/yauzl": "^2.10.3",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
+    "cypress": "^13.13.0",
     "eslint": "^8.57.0",
     "eslint-plugin-jest": "^28.6.0",
     "glob": "^10.4.2",
